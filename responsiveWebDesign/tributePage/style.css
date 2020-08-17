@@ -1,0 +1,129 @@
+html {
+    font-size: 1rem;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.65rem;
+    text-align: center;
+    color: #333333;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 2.25rem;
+}
+
+a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkgray;
+}
+
+#main {
+    margin: 3rem 0.8rem;
+    padding: 1rem;
+    border-radius: 2.5rem;
+    background: rgb(240, 240, 247);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+  
+#img-div {
+    background: white;
+    max-width: 85%;
+    padding: 1rem 1.5rem;
+    margin: 0 auto;
+}
+  
+#img-caption {
+    margin: 1rem 0 0.5rem 0;
+}
+
+#headline {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2.5rem 0;
+}
+
+ul {
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 2rem;
+  }
+  
+li {
+    text-align: justify;
+    margin: 0.5rem 0;
+}
+  
+blockquote {
+    font-style: italic;
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: right;
+}
+
+blockquote p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: justify;
+  }
+
+@media (max-width: 460px) {
+    h1 {
+        font-size: 2.5rem;
+        line-height: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    #main {
+        margin: 0;
+        border-radius: 0.5rem;
+    }
+
+    #img-caption {
+        font-size: 0.8rem;
+    }
+    
+    #headline {
+      margin: 1.5rem 0;
+      font-size: 1.25rem;
+    }
+
+    ul {
+        font-size: 1rem;
+        text-align: left;
+        line-height: 1.2rem;
+      }
+      
+      li {
+        margin: 0.3rem 0;
+      }
+      
+      blockquote {
+        font-size: 0.8rem;
+      }
+
+      blockquote p {
+        font-size: 0.8rem;
+        line-height: 1rem;
+      }
+}
